@@ -20,9 +20,11 @@ public class GameEngine
   {
     //This assumes dimensions are equal i.e 3 x 3 , 5 x 5
     ArrayList<String> diagonal = new ArrayList();
+    //Begin looping through rows
     for (int i = 0; i < board.size(); i++)
     {
       String[] row = board.get(i);
+      //Loop through columnss
       for (int x = 0; x < row.length; x++)
       {
         if (x == 0)
